@@ -1,0 +1,4 @@
+<h1> Assign a student to the book : <%= @book.name %> </h1>
+<%= render 'assign_student_form', book: @book %>
+<%= link_to 'Show', @book %>
+<%= link_to 'Back', books_path %>
